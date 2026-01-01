@@ -1,0 +1,36 @@
+# Bun dev/build outputs
+.data
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log*
+
+# Misc
+.DS_Store
+.vscode
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# output files
+.output
+.output.*
+
+# server files
+server/public
+
+# vite config files
+vite.config.ts.*
+
+# tar files
+*.tar.gz
